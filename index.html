@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- front awesome icons link  -->
     <script src="https://kit.fontawesome.com/35a44a0ec2.js" crossorigin="anonymous"></script>
+    <!-- css style link  -->
+    <link rel="stylesheet" href="style/style.css">
+
     <title>My portflio</title>
     
 </head>
 <body>
-    <header>
-        <div id="brand"><img src="./image/amake.png" alt="brandlogo">
+    <header id="header" class="horizontal">
+        <div id="brand"><img id="brandlogo" src="./image/amake.png" alt="brandlogo">
         </div>
 
         <nav id="navbar">
-            <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Portflio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+            <ul class="horizontal">
+                <li class="navitem"><a href="">home</a></li>
+                <li class="navitem"><a href="">Services</a></li>
+                <li class="navitem"><a href="">About</a></li>
+                <li class="navitem"><a href="">Skills</a></li>
+                <li class="navitem"><a href="">Portflio</a></li>
+                <li class="navitem"><a href="">Blog</a></li>
+                <li class="navitem"><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- home section  -->
-        <section id="home">
+        <section id="home" class="horizontal">
             <div id="left">
                 <div id="socialicon">
                     <div id="icon"><i class="fa-brands fa-facebook-f"></i></div>
@@ -42,16 +45,19 @@
                     <div id="icon"><i class="fa-brands fa-behance"></i></div>
 
                 </div>
+                
                 <div id="idintrotext">
                     <h2>I am Jonathan Doe</h2>
                 <p>i'm Jonathan, professional web developer with long time experince in this field</p>
 
                 </div>
+
+                <div id="actionbutton">
+                    <button>myportflio</button>
+                    <button>contactme</button>
+                </div>
             </div>
-            <div id="actionbutton">
-                <button>myportflio</button>
-                <button>contactme</button>
-            </div>
+            
             <div id="right">
                 <img src="./image/whiteman.png" alt="whiteman">
             </div>
@@ -115,7 +121,14 @@
         </section>
 
         <!-- about section  -->
-        <section id="about"></section>
+        <section id="about">
+
+            <h1> About ME</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod impedit sapiente fugiat, dolore similique repellendus molestiae consequatur sed dolorem ut quo molestias esse numquam ipsa facere modi tempora at. Ullam!</p>
+            
+            <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iure pariatur nostrum cum aliquid laudantium dolorum magni, et est ad, ducimus, cumque ratione nulla. Blanditiis animi iste quidem delectus. Quibusdam.</div>
+
+        </section>
 
         <!-- skills section  -->
         <section id="skills"></section>

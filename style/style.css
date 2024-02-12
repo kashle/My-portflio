@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+header {
+    background-color: #1F2236;
+    padding: 20px 80px;
+}
+
+#brandlogo{
+ width: 120px;
+}
+
+.horizontal {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+ .navitem{
+    list-style: none;
+    margin-right: 24px;
+
+ }
+
+.navitem a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.navitem a:hover {
+    color: #ff4a57;
+    cursor: pointer;
+}
+
+#home {
+    background-color: #24263b;
+    padding: 100px 80px;
+
+}
+
+#home .icon{
+display: flex;
+padding: 0%;
+justify-content: space-between;
+gap: 30x;
+
+}
