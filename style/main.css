@@ -1,3 +1,4 @@
+/*# sourceMappingURL=main.css.map */
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +41,10 @@
   .navItem {
     list-style: none;
     margin-right: 24px;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
   }
   
   .navItem a {
@@ -126,6 +131,7 @@
   
   .card:hover {
     background-color: #ff4A57;
+    animation: alternate-reverse;
   }
   
   .card i {

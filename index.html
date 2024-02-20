@@ -3,165 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- front awesome icons link  -->
-    <script src="https://kit.fontawesome.com/35a44a0ec2.js" crossorigin="anonymous"></script>
-    <!-- css style link  -->
-    <link rel="stylesheet" href="style/style.css">
-
-    <title>My portflio</title>
-    
+    <title>My Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/3733f30700.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
-    <header id="header" class="horizontal">
-        <div id="brand"><img id="brandlogo" src="./image/amake.png" alt="brandlogo">
+    <header id="header" class="horz">
+        <div id="brand">
+                <img id="brandLogo" src="image/amake.png" alt="Personal Portfolio">
         </div>
-
-        <nav id="navbar">
-            <ul class="horizontal">
-                <li class="navitem"><a href="">home</a></li>
-                <li class="navitem"><a href="">Services</a></li>
-                <li class="navitem"><a href="">About</a></li>
-                <li class="navitem"><a href="">Skills</a></li>
-                <li class="navitem"><a href="">Portflio</a></li>
-                <li class="navitem"><a href="">Blog</a></li>
-                <li class="navitem"><a href="">Contact</a></li>
+        <nav>
+            <ul class="horz">
+                <li class="navItem"><a href="#home">Home</a></li>
+                <li class="navItem"><a href="#services">Services</a></li>
+                <li class="navItem"><a href="#about">About</a></li>
+                <li class="navItem"><a href="#skills">Skills</a></li>
+                <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+                <li class="navItem"><a href="#blog">Blog</a></li>
+                <li class="navItem"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!-- home section  -->
-        <section id="home" class="horizontal">
+          <!-- home section -->
+          <section id="home" class="horz">
             <div id="leftcon">
-                <div id="socialicon" class="horizontal">
-                    <div id="icon"><i class="fa-brands fa-facebook-f"></i></div>
-
-                    <div id="icon"><i class="fa-brands fa-x-twitter"></i></div>
-
-                    <div id="icon"><i class="fa-brands fa-instagram"></i></div>
-
-                    <div id="icon"><i class="fa-brands fa-pinterest"></i></div>
-
-                    <div id="icon"><i class="fa-brands fa-behance"></i></div>
-
+                <div id="socialIcons" class="horz">
+                    <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+                    <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
+                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="icon"><i class="fa-brands fa-behance"></i></div>
                 </div>
-
-                <div id="idintrotext">
-                    <h2 class="sectiontitle">I am Jonathan Doe</h2>
-                <p class="sectionp">i'm Jonathan, professional web developer with long time experince in this field</p>
-
+                <div id="text">
+                    <h1 class="sectionTitle">I am Jonathan Doe</h1>
+                    <p class="sectionP">I'm Jonathan, professional web developer with long time experience in this field​</p>
                 </div>
-
-                <div id="actionbutton">
-                    <button id="btnp" class="hover">myportflio</button>
-                    <button id="playbtn">
-                        <i class="fa-solid fa-play"></i>
-                    </button>
+                <div id="actionBtn">
+                    <button class="icon portfolioBtn">My Portfolio</button>
+                    <button id="playBtn"><i class="fa-solid fa-play"></i></button>
                 </div>
             </div>
-            
-            <div id="rightcon">
-                <img src="./image/whiteman.png" alt="whiteman">
+
+            <div id="rightCon">
+                <img src="image/whiteman.png" alt="Man">
             </div>
         </section>
 
-        <!-- services section -->
+        <!-- services section  -->
         <section id="services">
-       <div>
+            <div id="title-block">
+                <h5>SERVICES</h5>
+                <h1>My Services</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+            </div>
 
-        <div>
-            <h4>SERVICES</h4>
-            <h2>My Services</H2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, repellat sit hic nobis in totam quas reprehenderit ut quam magni soluta harum minima quis culpa eligendi dolor eum voluptate velit?</p>   
-    
-        </div>
-
-        <div id="leftupcont">
-
-        <h2>     Web Development    </h2>
-        <p> Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy </p>
-       
-        </div>
-
-        <div id="leftdowncont">
-
-            <h2>Photography</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-
-        </div>
-
-       <div id="middleupcont">
-        
-        <h2>Web Design</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-
-       </div>
-
-       <div id="middledowncont">
-
-        <h2>App Developing</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-
-       </div>
-
-       <div id="rigntupcont">
-        
-        <h2>Video Editing</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-
-       </div>
-
-       <div id="rightdowncont">
-        
-        <h2>SEO Expart</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
-
-       </div>
-
-       </div>
-       
+            <div class="row horz">
+                <div class="card">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-sharp fa-solid fa-file-video"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+            </div>
+            <div class="row horz">
+                <div class="card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>App Developing</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>Video Editing</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-yoast"></i>
+                    <h3>SEO Expart</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+                </div>
+            </div>
         </section>
-
+        
+        
         <!-- about section  -->
         <section id="about">
-
-            <h1> About ME</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod impedit sapiente fugiat, dolore similique repellendus molestiae consequatur sed dolorem ut quo molestias esse numquam ipsa facere modi tempora at. Ullam!</p>
-            
-            <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iure pariatur nostrum cum aliquid laudantium dolorum magni, et est ad, ducimus, cumque ratione nulla. Blanditiis animi iste quidem delectus. Quibusdam.</div>
+            <h1>About Me</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+            <hr>
 
         </section>
-
         <!-- skills section  -->
-        <section id="skills"></section>
+        <section id="skills">
 
-        <!-- portflio section  -->
-        <section id="portflio"></section>
-
-        <!-- Blog section  -->
-        <section id="Blog"></section>
-
-        <!-- Contact section  -->
-        <section id="Contact">
-            <h2>Contact Us</h2>
-            <form action="" method="">
-                <input type="text"placeholder="first name">
-                <br></br>
-                <input type="text"placeholder="E-mail" name="email">
-                <br></br>
-                <input type="text"placeholder="phone number"name="phone">
-                <br></br>
-                <input type="date"placeholder="DOB"name="dob">
-                <br></br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
-                <br></br>
-                 <input type="submit" value="submit">
-            </form>
         </section>
+        <!-- portfolio section  -->
+        <section id="portfolio">
+
+        </section>
+        <!-- blog section  -->
+        <section id="blog">
+
+        </section>
+        <!-- contact section  -->
+        <scetion id="contact">
+
+        </scetion>
+
         
-        </section>
     </main>
+    
 
     <footer></footer>
+
+
 </body>
 </html>
